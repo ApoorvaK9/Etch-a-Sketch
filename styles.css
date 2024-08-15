@@ -6,3 +6,6 @@
     position: absolute;
 }
 
+.gridItem:hover {
+    background: aqua;
+}
