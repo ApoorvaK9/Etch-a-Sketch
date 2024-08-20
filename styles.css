@@ -11,3 +11,9 @@
     position: absolute;
 }
 
+button {
+    height: max-content;
+    width:  max-content;
+    background: rgb(116, 205, 240);
+    font-size: 40px;
+}
