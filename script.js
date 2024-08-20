@@ -10,3 +10,20 @@ for (let row = 1; row < 17; row++) {
         container.appendChild(div);
     }
 }
+
+let gridItems = document.querySelectorAll(".gridItem");
+
+
+for (let item of gridItems){
+    // The mouseout fires when the mouse cursor is over an element and 
+    // then moves another element.
+    item.addEventListener('mouseout',() => {
+        item.style.background = "grey";
+    });
+
+    // The mouseover fires when the mouse cursor is outside of the element
+    // and then moves inside the boundaries of the element.
+    item.addEventListener('mouseover', () => {
+        item.style.background = "pink";
+    });
+}
