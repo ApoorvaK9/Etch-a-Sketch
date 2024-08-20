@@ -1,11 +1,13 @@
+.container {
+    height : 800px;
+    width : 800px;
+}
+
 .gridItem {
-    height: 50px;
-    width: 50px;
+    /* height: 50px;
+    width: 50px; */
     background: white;
     border: 1px solid #000;
     position: absolute;
 }
 
-.gridItem:hover {
-    background: aqua;
-}
