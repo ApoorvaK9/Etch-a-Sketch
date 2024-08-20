@@ -44,13 +44,22 @@ function newGrid (squareNum) {
         // The mouseout fires when the mouse cursor is over an element and 
         // then moves another element.
         item.addEventListener('mouseout',() => {
-            item.style.background = "grey";
+            item.style.background = randomRGB();
         });
 
         // The mouseover fires when the mouse cursor is outside of the element
         // and then moves inside the boundaries of the element.
         item.addEventListener('mouseover', () => {
-            item.style.background = "pink";
+            item.style.background = "black";
         });
     }
+}
+
+// function generates random RGB
+function randomRGB() {
+    let r = Math.floor(Math.random() * 255);
+    let g = Math.floor(Math.random() * 255);
+    let b = Math.floor(Math.random() * 255);
+
+    return "rgb(" + r + "," + g + "," + b + ")"; 
 }
