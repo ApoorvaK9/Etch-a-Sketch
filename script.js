@@ -4,7 +4,7 @@ const container = document.querySelector(".container");
 let NumOfSqBtn = document.createElement('button');
 
 NumOfSqBtn.textContent = "Number of squares";
-let squareNum = 0;
+let squareNum = 16;
 NumOfSqBtn.addEventListener('click',() => {
     // Prompt to user to input number of squares
     squareNum = prompt("Please enter a number(1-100) of squares for new grid",16);

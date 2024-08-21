@@ -10,6 +10,8 @@
 }
 
 button {
+    display: flex;
+    margin :10px;
     height: max-content;
     width:  max-content;
     background: rgb(116, 205, 240);
