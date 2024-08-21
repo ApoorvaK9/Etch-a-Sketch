@@ -49,8 +49,8 @@ function newGrid (squareNum) {
             const div = document.createElement("div");
             div.classList.add("gridItem");
             // positioning the divs
-            div.style.left = column * squareSideLen +   250 + "px";
-            div.style.top = row * squareSideLen +   250 + "px";
+            div.style.left = column * squareSideLen +   500 + "px";
+            div.style.top = row * squareSideLen +   20 + "px";
             // Height and width of each div
             div.style.height = squareSideLen + "px";
             div.style.width = squareSideLen + "px";
